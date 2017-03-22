@@ -1,8 +1,8 @@
 +++
-title = "Résumé"
-date = "2017-03-18T16:05:03-07:00"
+date = "2017-03-18T16:05:00"
 menu = "main"
-
+title = "Résumé"
+type = "page"
 +++
 
 <img src="https://nqthqn.com/content/images/2017/01/DSC00406-2.jpg" style="float:right;width:40%;border-radius:5px;display: block; height: auto; padding: 0; position: relative; left: 0%; -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%);">

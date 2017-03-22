@@ -1,4 +1,17 @@
-languageCode = "en-us"
+baseurl = "https://www.nqthqn.com/"
 title = "nqthqn"
-baseurl = "https://nqthqn.com/"
-theme = "hemingway2"
+author = "Nate Nichols"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "nqthqn"
+
+[[menu.main]]
+    name = "Github"
+    url  = "https://github.com/nqthqn/"
+
