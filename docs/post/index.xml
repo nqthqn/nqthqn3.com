@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on nqthqn</title>
-    <link>https://nqthqn.com/post/</link>
+    <link>http://nqthqn.com/post/</link>
     <description>Recent content in Posts on nqthqn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Mar 2017 09:11:42 -0700</lastBuildDate>
     
-	<atom:link href="https://nqthqn.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://nqthqn.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Programming tunes</title>
-      <link>https://nqthqn.com/post/programming-tunes/</link>
+      <link>http://nqthqn.com/post/programming-tunes/</link>
       <pubDate>Mon, 27 Mar 2017 09:11:42 -0700</pubDate>
       
-      <guid>https://nqthqn.com/post/programming-tunes/</guid>
+      <guid>http://nqthqn.com/post/programming-tunes/</guid>
       <description>Listening to wordless music helps me focus. My goal as a programmer is to enter into a state of flow. I use pomodoros, music and touch typing. Oh - and ample amounts of tea. So here&amp;rsquo;s a list of good listens, thanks @daved, mentor, friend and business partner.
 El Ten Eleven Very organic ambient music. Harmonics on the guitar. Love it. Great drumming. A little hypnotic.
 Helios Light airy. The sun is peaking through the clouds and this music goes great with this enviornment.</description>
@@ -24,10 +24,10 @@ Helios Light airy. The sun is peaking through the clouds and this music goes gre
     
     <item>
       <title>Hack Night #7</title>
-      <link>https://nqthqn.com/post/hack-night-7/</link>
+      <link>http://nqthqn.com/post/hack-night-7/</link>
       <pubDate>Thu, 02 Feb 2017 05:07:59 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-7/</guid>
+      <guid>http://nqthqn.com/post/hack-night-7/</guid>
       <description>Yes, we plugged a rasberry pi into a 72&amp;rdquo; HD TV, and what did we do? Opened nano, of course. I think moving forward I will be providing popcorn as the official &amp;ldquo;snack of hack night&amp;rdquo;
 You are welcome bring your selves, your snacks, and your projects to share. SAee you all next week! Happy hacking.
 N</description>
@@ -35,40 +35,40 @@ N</description>
     
     <item>
       <title>Bye bye Mac OS</title>
-      <link>https://nqthqn.com/post/bye-bye-mac-os/</link>
+      <link>http://nqthqn.com/post/bye-bye-mac-os/</link>
       <pubDate>Thu, 02 Feb 2017 05:05:48 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/bye-bye-mac-os/</guid>
+      <guid>http://nqthqn.com/post/bye-bye-mac-os/</guid>
       <description>And hello Ubuntu. I&amp;rsquo;ve downloaded my ISO. Here&amp;rsquo;s how I got it on my thumb drive,
  First run diskutil list then insert your usb stick diskutil list again to see the disk node (e.g. /dev/disk2). diskutil unmountDisk /dev/diskN sudo dd if=/path-to.iso of=/dev/rdiskN bs=1m (note the rdisk, r is for raw and makes this process faster. Stare and wait. There is no feedback. When finished diskutil eject /dev/diskN  </description>
     </item>
     
     <item>
       <title>No (go)ogle</title>
-      <link>https://nqthqn.com/post/no-google/</link>
+      <link>http://nqthqn.com/post/no-google/</link>
       <pubDate>Fri, 20 Jan 2017 22:59:00 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/no-google/</guid>
+      <guid>http://nqthqn.com/post/no-google/</guid>
       <description>I&amp;rsquo;ve received feedback from my recruiter. I will not be flying down to mountain view for onsite interviewing. I need to learn how to work through a conceptual solution before diving into coding.
 Honestly, it was a pretty nerve racking process — more so than it needed to be. I&amp;rsquo;ll be ready next time! Onward and upwards! Also, side note, 60% of current googlers did not get in on their first try.</description>
     </item>
     
     <item>
       <title>Hack Night #6</title>
-      <link>https://nqthqn.com/post/hack-night-6/</link>
+      <link>http://nqthqn.com/post/hack-night-6/</link>
       <pubDate>Thu, 19 Jan 2017 05:10:15 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-6/</guid>
+      <guid>http://nqthqn.com/post/hack-night-6/</guid>
       <description>Hack Nights are a time set aside each week for coders and anyone generally interested in technology to gather and hack, work on homework, or just hang out. Presentations are infrequent and short.
  Tonight we had some lovely IPAs and stouts. Folks worked through algorithms. One gentleman worked on a postcard ordering webapp. I planned to work on my side project &amp;ldquo;make domain names&amp;rdquo; but ended up being a chatty cathy.</description>
     </item>
     
     <item>
       <title>Late July by Shakey Graves</title>
-      <link>https://nqthqn.com/post/late-july-shakey-graves/</link>
+      <link>http://nqthqn.com/post/late-july-shakey-graves/</link>
       <pubDate>Wed, 18 Jan 2017 16:23:44 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/late-july-shakey-graves/</guid>
+      <guid>http://nqthqn.com/post/late-july-shakey-graves/</guid>
       <description>Absolutely love this tune. Shakey shares the story of how he got his stage name.
  One of the most talented Austin songwriters and musicians, Shakey Graves, plays a badass tune in the bottom of a storm ditch on a crisp February afternoon in East Austin. Surrounded by tunnels, trains and grassy knolls make for a stirring rendition of his song &amp;ldquo;Late July&amp;rdquo;
   </description>
@@ -76,30 +76,30 @@ Honestly, it was a pretty nerve racking process — more so than it needed to be
     
     <item>
       <title>An Elm Talk!</title>
-      <link>https://nqthqn.com/post/an-elm-talk/</link>
+      <link>http://nqthqn.com/post/an-elm-talk/</link>
       <pubDate>Tue, 17 Jan 2017 20:44:42 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/an-elm-talk/</guid>
+      <guid>http://nqthqn.com/post/an-elm-talk/</guid>
       <description>Go RSVP. We should have some fun! I&amp;rsquo;ve got a little over a month to prepare for this. If I don&amp;rsquo;t procrastinate you will be in for a fun talk. If I do, well, they have pizza and beer! You can&amp;rsquo;t lose!
 Update (March 21, 2017): I&amp;rsquo;ve begun putting talk resources in my talks repo.</description>
     </item>
     
     <item>
       <title>My first Google TPS</title>
-      <link>https://nqthqn.com/post/my-first-google-tps-2/</link>
+      <link>http://nqthqn.com/post/my-first-google-tps-2/</link>
       <pubDate>Tue, 17 Jan 2017 20:09:42 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/my-first-google-tps-2/</guid>
+      <guid>http://nqthqn.com/post/my-first-google-tps-2/</guid>
       <description>I just wrapped up my google technical phone screening this morning. My advice? Ease in to the problem you are given. Don&amp;rsquo;t start coding right away and verify that you understand the requirements. I had to start over — but with some nudges from my interviewer I was able to get 99% of the way to an optimal solution.
 Anyway, now I am working through my solution and calling on assert() — my new best friend.</description>
     </item>
     
     <item>
       <title>Python decorators: fish hat</title>
-      <link>https://nqthqn.com/post/python-decorators-fish-hat/</link>
+      <link>http://nqthqn.com/post/python-decorators-fish-hat/</link>
       <pubDate>Mon, 16 Jan 2017 05:58:45 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/python-decorators-fish-hat/</guid>
+      <guid>http://nqthqn.com/post/python-decorators-fish-hat/</guid>
       <description>So, let&amp;rsquo;s say we want to decorate a fish with a hat (here&amp;rsquo;s a good read). First let&amp;rsquo;s make a fishy function called fish.
 def fish(): return &amp;quot;a fish&amp;quot;  Now let&amp;rsquo;s decorate this fish with a hat. Let&amp;rsquo;s make a hat decorator!
 def hat(old_func): def new_func(): return old_func() + &amp;quot; with a hat&amp;quot; return new_func  And putting it all together we get:
@@ -108,20 +108,20 @@ def hat(old_func): def new_func(): return old_func() + &amp;quot; with a hat&amp
     
     <item>
       <title>Hack Night #5</title>
-      <link>https://nqthqn.com/post/hack-night-5/</link>
+      <link>http://nqthqn.com/post/hack-night-5/</link>
       <pubDate>Sat, 14 Jan 2017 17:36:49 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-5/</guid>
+      <guid>http://nqthqn.com/post/hack-night-5/</guid>
       <description>Last Wednesday we had a good get together of great grinning geeks, golly&amp;hellip; ok enough with the alliterations. We had a DevOps engineer in attendance who demoed some sweet visual regression testing. I shared my great grid making machine and spoke about the Elm architecture.
 A few folks got to try out google glass and google daydream. One productive hacker worked in the back attempting to connect his Raspberry Pi to the guest wifi network.</description>
     </item>
     
     <item>
       <title>*nix adventure #1: fun files</title>
-      <link>https://nqthqn.com/post/nix-adventure-1/</link>
+      <link>http://nqthqn.com/post/nix-adventure-1/</link>
       <pubDate>Tue, 10 Jan 2017 03:32:37 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/nix-adventure-1/</guid>
+      <guid>http://nqthqn.com/post/nix-adventure-1/</guid>
       <description>Load your electron guns and prepare for the light emitting diodes; We&amp;rsquo;re going to linux land. You have arrived in a strange location some where on the hard drive. Where could you be in this vast universe? /home/root most likely. Who are you? root I would presume. There&amp;rsquo;s no place like ~.
 Let&amp;rsquo;s begin. First things first.
  whoami  Will print out who you are now — your current username.</description>
@@ -129,39 +129,39 @@ Let&amp;rsquo;s begin. First things first.
     
     <item>
       <title>The undulations of an autodidact</title>
-      <link>https://nqthqn.com/post/learning-paradox/</link>
+      <link>http://nqthqn.com/post/learning-paradox/</link>
       <pubDate>Wed, 28 Dec 2016 17:46:32 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/learning-paradox/</guid>
+      <guid>http://nqthqn.com/post/learning-paradox/</guid>
       <description>I exist in the paradox of distracted focus. Highly focused distraction. My curiosity causes me to learn in an asynchronous way. I complete 40% of task A then move to task B. I&amp;rsquo;ll complete 10% then move back to task A and wrap it up.
 This non-linear way is a bit dizzying and leaves one quite unsatisfied. I think I need to start completing the tasks one by one. At least, in some cases.</description>
     </item>
     
     <item>
       <title>Hack Night #4</title>
-      <link>https://nqthqn.com/post/hack-night-4/</link>
+      <link>http://nqthqn.com/post/hack-night-4/</link>
       <pubDate>Wed, 28 Dec 2016 17:22:00 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-4/</guid>
+      <guid>http://nqthqn.com/post/hack-night-4/</guid>
       <description>This hack night was sparsely attended due to the weather. I should say we discussed IRC, blocking javascript on the web and someone brought a Novena Laptop.
 I spent most of the evening typing away in Elm lang. Thanks to all who made it! It was fun have some EUGLUGers (Is that what you are called?) in attendance.</description>
     </item>
     
     <item>
       <title>Animated Typography</title>
-      <link>https://nqthqn.com/post/animated-typography/</link>
+      <link>http://nqthqn.com/post/animated-typography/</link>
       <pubDate>Thu, 08 Dec 2016 20:20:48 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/animated-typography/</guid>
+      <guid>http://nqthqn.com/post/animated-typography/</guid>
       <description>Now this is cool! Try typing your name in the box.</description>
     </item>
     
     <item>
       <title>Hack Night #3</title>
-      <link>https://nqthqn.com/post/hack-night-3/</link>
+      <link>http://nqthqn.com/post/hack-night-3/</link>
       <pubDate>Thu, 08 Dec 2016 19:52:53 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-3/</guid>
+      <guid>http://nqthqn.com/post/hack-night-3/</guid>
       <description>We conversed about IoT, MIDI, Go-lang, and a few more small app ideas. We will be starting a few projects on our GitHub page soon.
 An electrical engineer with 35+ years of experience demoed a prototype of a breath powered MIDI instrument. We had the Eugene go-lang community leader demo a particle simulation he wrote in Go for display in Paraview.
 We had a few new faces — Warm welcome to all of you!</description>
@@ -169,29 +169,29 @@ We had a few new faces — Warm welcome to all of you!</description>
     
     <item>
       <title>Android Developer Conf</title>
-      <link>https://nqthqn.com/post/android-developer-conf/</link>
+      <link>http://nqthqn.com/post/android-developer-conf/</link>
       <pubDate>Thu, 01 Dec 2016 00:06:00 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/android-developer-conf/</guid>
+      <guid>http://nqthqn.com/post/android-developer-conf/</guid>
       <description>20 free t-shirts, 10 tutorials and a couple keynotes later I feel a step closer to becoming an android developer. I plan to take this udacity course when I get home. Hopefully I&amp;rsquo;ll be sharing an Android app in the play store soon! Here is a list of some of the new tech I&amp;rsquo;ve been learning about at AnDevCon,
  firebase bugsnag branch google vr tensorflow  It will be interesting moving from Python to Java to pursue native android app development.</description>
     </item>
     
     <item>
       <title>Hack Night #2</title>
-      <link>https://nqthqn.com/post/hack-night-2/</link>
+      <link>http://nqthqn.com/post/hack-night-2/</link>
       <pubDate>Thu, 17 Nov 2016 05:29:58 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-2/</guid>
+      <guid>http://nqthqn.com/post/hack-night-2/</guid>
       <description>Our second ever hack night 🎉 was focused more on backend development and devops. I shared a short demo of a multi-site https reverse proxy I was working on using node. We had a custom PHP site demo (from an up and coming developer) and another demo of a golang app that deploys and configures docker applications, sets up sub-domains and fetches certificates from letsencrypt 😮 (I think I got that right).</description>
     </item>
     
     <item>
       <title>Hack Night #1</title>
-      <link>https://nqthqn.com/post/hack-night-1/</link>
+      <link>http://nqthqn.com/post/hack-night-1/</link>
       <pubDate>Thu, 17 Nov 2016 05:03:19 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/hack-night-1/</guid>
+      <guid>http://nqthqn.com/post/hack-night-1/</guid>
       <description>Our inaugural hack night took place Wednesday night from 5-7pm with 5 developers. We discussed frontend development and shared resources.
  The State of JS Vue JS Ghost Blog Eugene Tech Slack  This week we mostly had a fun discussion. People shared a few app ideas and open source projects that could use some TLC.
 Also, the pizza was good.</description>
@@ -199,10 +199,10 @@ Also, the pizza was good.</description>
     
     <item>
       <title>yarn &amp; node</title>
-      <link>https://nqthqn.com/post/yarn-node/</link>
+      <link>http://nqthqn.com/post/yarn-node/</link>
       <pubDate>Sat, 12 Nov 2016 04:04:38 +0000</pubDate>
       
-      <guid>https://nqthqn.com/post/yarn-node/</guid>
+      <guid>http://nqthqn.com/post/yarn-node/</guid>
       <description>How do install yarn and node on ubuntu xenial?
  </description>
     </item>
