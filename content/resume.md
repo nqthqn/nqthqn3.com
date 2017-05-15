@@ -5,14 +5,15 @@ title = "Résumé"
 type = "page"
 +++
 
-<img src="https://nqthqn.com/content/images/2017/01/DSC00406-2.jpg" style="float:right;width:40%;border-radius:5px;display: block; height: auto; padding: 0; position: relative; left: 0%; -webkit-transform: translateX(0%); -ms-transform: translateX(0%); transform: translateX(0%);">
+<style> #content > h1{display:none;} #sub-header{display:none;} </style>
 
-### Nathan Nichols
+![me](img/me.jpg)
+
+# Nathan Nichols
 <a href="https://github.com/nqthqn">GitHub</a> •
 <a href="https://www.linkedin.com/in/nathan-nichols-479779121">LinkedIn</a> <br>
-email: nathann@ori.org <br>
-cell: (541) 357 - 8673 <br>
-work: (541) 484 - 2123 <br>
+**email:** n@nqthqn.com <br>
+**cell:** (541) 357 - 8673 <br>
 
 ### Summary
 
@@ -109,9 +110,8 @@ I visited 35 countries with my family growing up. We lived for two years in Colo
 ### Passion Projects
 
  - Juggling fire and entertaining people @[Juggling Bros.](http://jugglingbrothers.com/)
- - Making little [elm apps](https://github.com/natsn/elmapps)
  - Volunteer teaching at our local [Coder Dojo](https://coderdojo.com/)
- - Adding passion projects my résumé...
+ - Running a design/development studio "LUMA, LLC"
 
 
 <style>

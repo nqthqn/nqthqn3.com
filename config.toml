@@ -1,9 +1,10 @@
-baseurl = "https://www.nqthqn.com/"
+baseurl = "https://nqthqn.com/"
 title = "nqthqn"
 author = "Nate Nichols"
 canonifyurls = true
 languagecode = "en"
 theme = "black-and-light"
+publishDir = "docs"
 
 pygmentsstyle       = "bw"
 pygmentscodefences  = true
