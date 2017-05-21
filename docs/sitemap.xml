@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://nqthqn.com/post/elm-snippets/</loc>
+    <lastmod>2017-05-21T15:19:37-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nqthqn.com/post/programming-tunes/</loc>
     <lastmod>2017-03-27T09:11:42-07:00</lastmod>
   </url>
@@ -118,7 +123,7 @@
   
   <url>
     <loc>http://nqthqn.com/post/</loc>
-    <lastmod>2017-03-27T09:11:42-07:00</lastmod>
+    <lastmod>2017-05-21T15:19:37-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -129,7 +134,7 @@
   
   <url>
     <loc>http://nqthqn.com/</loc>
-    <lastmod>2017-03-27T09:11:42-07:00</lastmod>
+    <lastmod>2017-05-21T15:19:37-07:00</lastmod>
     <priority>0</priority>
   </url>
   

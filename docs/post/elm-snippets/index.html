@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.20.7" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="HandheldFriendly" content="True">
@@ -20,10 +19,10 @@
     <title>
       
       
-         nqthqn 
+         Elm snippets 
       
     </title>
-    <link rel="canonical" href="http://nqthqn.com/">
+    <link rel="canonical" href="http://nqthqn.com/post/elm-snippets/">
 
     <style>
   * {
@@ -379,8 +378,6 @@
 
 
     
-      <link href="http://nqthqn.com/index.xml" rel="alternate" type="application/rss+xml" title="nqthqn" />
-    
   </head>
 
   <body>
@@ -401,174 +398,134 @@
 
 
 <section id=content>
-  <ul class=posts_listing>
+  <h1> Elm snippets </h1>
+
+  <div id=sub-header>
+    May 2017 · 2 minute read
+  </div>
+
+  <div class="entry-content">
     
-      <li>
-        <h2><a href="http://nqthqn.com/post/elm-snippets/">Elm snippets</a></h2>
-        <div id=date>
-          <time>May 2017</time>
-        </div>
-      </li>
+
+<h2 id="mapping-the-view">Mapping the View</h2>
+
+<p>This little piece of code takes a list and puts it into a grid of 4 x n.</p>
+
+<pre><code>List.map (div [ class &quot;columns&quot; ]) (List.map (\el -&gt; div [ class &quot;column&quot; ] [ text el.content ]) stuff |&gt; List.Extra.greedyGroupsOf 4)
+</code></pre>
+
+<p>So if <code>stuff</code> had 10 things in it that would produce:</p>
+
+<pre><code>&lt;div class=&quot;columns&quot;&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;columns&quot;&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;content&lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+
+<h2 id="updating-a-nested-record">Updating a nested record</h2>
+
+<p>Apparently you can&rsquo;t do <code>{ model.nested | thing = 1 }</code>. You would have to do,</p>
+
+<pre><code>nested = 
+    model.nested
+
+nested_ =
+    { nested | thing = 1 }
+
+-- ...
+
+{ model | nested = nested_ }
+</code></pre>
+
+<p>But you can write updater functions!</p>
+
+<pre><code>up_thing nested thing_ =
+    { nested | thing = thing_ }
+
+-- ...
+
+{ model | nested = up_thing model.nested 1 }
+
+</code></pre>
+
+<p>So that&rsquo;s kind of nice. Nested records are not the best thing anyway. Probably because if you want to update one small deeply nested child you have to deal with all the parents, grandparents, inlaws, etc. ;). Not efficient, not fun. Keep it flat.</p>
+
+<h2 id="hard-coded-decoding">Hard coded decoding</h2>
+
+<pre><code>thingDecoder : JD.Decoder Thing
+thingDecoder =
+    JP.decode Thing
+        |&gt; JP.required &quot;id&quot; (JD.string)
+        |&gt; JP.required &quot;content&quot; (JD.string)
+        |&gt; JP.hardcoded False
+</code></pre>
+
+<p>That last line is kind of nice in case you need to do something awkward like this.</p>
+
+<h2 id="nested-encoding">Nested encoding</h2>
+
+<p>Sometimes your server might be expecting nested json. Here&rsquo;s an encoder for that:</p>
+
+<pre><code>thingEncoder : Thing -&gt; JE.Value
+thingEncoder t =
+    JE.object
+        [ ( &quot;thing&quot;
+          , JE.object
+                [ ( &quot;id&quot;, JE.string t.id )
+                , ( &quot;content&quot;, JE.string t.content )
+                , ( &quot;booly&quot;, JE.bool t.booly )
+                ]
+            )
+        ]
+</code></pre>
+
+<h2 id="ports-with-no-arguments">Ports with no arguments</h2>
+
+<p>Sometimes you don&rsquo;t want to pass anything into a port.</p>
+
+<pre><code>port ping : () -&gt; Cmd msg
+</code></pre>
+
+<p>Then in the update&hellip;</p>
+
+<pre><code>( model, Port.ping () )
+</code></pre>
+
+<p>And the js&hellip;</p>
+
+<pre><code>app.ports.ping.subscribe( function ( NOTHING ) {
+
+    document.getElementById(&quot;ping&quot;).play()
+
+})
+</code></pre>
+
+  </div>
+
+  <div id=links>
     
-      <li>
-        <h2><a href="http://nqthqn.com/post/programming-tunes/">Programming tunes</a></h2>
-        <div id=date>
-          <time>March 2017</time>
-        </div>
-      </li>
+      <a class="basic-alignment left" href="http://nqthqn.com/post/programming-tunes/">&laquo; Programming tunes</a>
     
-      <li>
-        <h2><a href="http://nqthqn.com/about/">About</a></h2>
-        <div id=date>
-          <time>March 2017</time>
-        </div>
-      </li>
     
-      <li>
-        <h2><a href="http://nqthqn.com/helpful-code/">Helpful Code</a></h2>
-        <div id=date>
-          <time>March 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/resume/">Résumé</a></h2>
-        <div id=date>
-          <time>March 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-7/">Hack Night #7</a></h2>
-        <div id=date>
-          <time>February 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/bye-bye-mac-os/">Bye bye Mac OS</a></h2>
-        <div id=date>
-          <time>February 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/no-google/">No (go)ogle</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-6/">Hack Night #6</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/late-july-shakey-graves/">Late July by Shakey Graves</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/an-elm-talk/">An Elm Talk!</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/my-first-google-tps-2/">My first Google TPS</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/python-decorators-fish-hat/">Python decorators: fish hat</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-5/">Hack Night #5</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/nix-adventure-1/">*nix adventure #1: fun files</a></h2>
-        <div id=date>
-          <time>January 2017</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/learning-paradox/">The undulations of an autodidact</a></h2>
-        <div id=date>
-          <time>December 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-4/">Hack Night #4</a></h2>
-        <div id=date>
-          <time>December 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/animated-typography/">Animated Typography</a></h2>
-        <div id=date>
-          <time>December 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-3/">Hack Night #3</a></h2>
-        <div id=date>
-          <time>December 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/android-developer-conf/">Android Developer Conf</a></h2>
-        <div id=date>
-          <time>December 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-2/">Hack Night #2</a></h2>
-        <div id=date>
-          <time>November 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/hack-night-1/">Hack Night #1</a></h2>
-        <div id=date>
-          <time>November 2016</time>
-        </div>
-      </li>
-    
-      <li>
-        <h2><a href="http://nqthqn.com/post/yarn-node/">yarn &amp; node</a></h2>
-        <div id=date>
-          <time>November 2016</time>
-        </div>
-      </li>
-    
-  </ul>
+  </div>
 </section>
 
   
 </body>
 </html>
+
 
 
