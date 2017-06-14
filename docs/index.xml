@@ -61,10 +61,10 @@ python -m json.tool ugly.json &amp;gt; pretty.json  </description>
       <pubDate>Sat, 18 Mar 2017 16:05:00 +0000</pubDate>
       
       <guid>http://nqthqn.com/resume/</guid>
-      <description>#content  h1{display:none;} #sub-header{display:none;}  Nathan Nichols GitHub • LinkedIn email: n@nqthqn.com cell: (541) 357 - 8673 Summary Always looking to dig in to interesting problems and create useful solutions. Well-versed in full-stack development.
+      <description>#content  h1{display:none;} #sub-header{display:none;} strong {background:#C3D7CE;padding:2px;}  Nathan Nichols GitHub • LinkedIn email: sayhello@luma.studio cell: (541) 357 - 8673 Summary Always looking to dig in to interesting problems and create useful solutions. Breadth of skills in software development, project management
 Education B.A. in Computer and Information Science University of Oregon, 2013
-Work Lead Software Developer at Oregon Research Institute 9&amp;frasl;13 - now • Eugene, Oregon
- Design, maintain and develop a large Django web application Refactoring the front-end using Elm (for fun) Hired and managed 7 interns over the years to help build, test and customize the platform for many NIH funded grants.</description>
+Work Leaderless Fear at LUMA, LLC 1&amp;frasl;16 - now • Eugene, Oregon
+ Bring stakeholder goals to fruition, invent solutions Communicate technical goals and timelines with development team Video capture and editing, story telling  Lead Software Developer at Oregon Research Institute 9&amp;frasl;13 - now • Eugene, Oregon</description>
     </item>
     
     <item>
