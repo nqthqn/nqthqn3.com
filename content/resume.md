@@ -23,7 +23,7 @@ cell: (541) 357 - 8673 <br>
 
 ### Summary
 
-Always looking to dig in to interesting problems and create useful solutions. Breadth of skills in software development, project management
+10+ years experience as a software consultant, full-stack web developer and project manager. Absolutely addicted to frontend web development with Elm and functional programming. Always looking to dig in to interesting problems and create useful solutions.
 
 ### Education
 
