@@ -61,7 +61,7 @@ python -m json.tool ugly.json &amp;gt; pretty.json  </description>
       <pubDate>Sat, 18 Mar 2017 16:05:00 +0000</pubDate>
       
       <guid>http://nqthqn.com/resume/</guid>
-      <description>#content  h1{display:none;} #sub-header{display:none;} strong {background:#C3D7CE;padding:2px;}  Nathan Nichols GitHub • LinkedIn email: sayhello@luma.studio cell: (541) 357 - 8673 Summary 10+ years experience as a software consultant, full-stack web developer and project manager. Absolutely addicted to frontend web development with Elm and functional programming. Always looking to dig in to interesting problems and create useful solutions.
+      <description>#content  h1{display:none;} #sub-header{display:none;} strong {background:#C3D7CE;padding:2px;}  Nathan Nichols GitHub email: sayhello@luma.studio cell: (541) 357 - 8673 Summary 10+ years experience as a software consultant, full-stack web developer and project manager. Absolutely addicted to frontend web development with Elm and functional programming. Always looking to dig in to interesting problems and create useful solutions.
 Education B.A. in Computer and Information Science University of Oregon, 2013
 Work Leaderless Fear at LUMA, LLC 1&amp;frasl;16 - now • Eugene, Oregon</description>
     </item>
