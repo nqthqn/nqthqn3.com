@@ -16,8 +16,7 @@ strong {background:#C3D7CE;padding:2px;}
 ![me](img/me.jpg)
 
 # Nathan Nichols
-<a href="https://github.com/nqthqn">GitHub</a> •
-<a href="https://www.linkedin.com/in/nathan-nichols-479779121">LinkedIn</a> <br>
+<a href="https://github.com/nqthqn">GitHub</a> <br>
 email: sayhello@luma.studio <br>
 cell: (541) 357 - 8673 <br>
 
