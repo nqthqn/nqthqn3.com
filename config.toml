@@ -3,16 +3,5 @@ title = "nqthqn"
 author = "Nate Nichols"
 canonifyurls = true
 languagecode = "en"
-theme = "black-and-light"
+theme = "bw"
 publishDir = "docs"
-
-pygmentsstyle       = "bw"
-pygmentscodefences  = true
-
-[params]
-  sitename = "nqthqn"
-
-[[menu.main]]
-    name = "Github"
-    url  = "https://github.com/nqthqn/"
-
